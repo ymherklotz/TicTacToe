@@ -1,0 +1,17 @@
+h1 {
+    font-family: "Arial", Arial, sans-serif;
+    text-align: center;
+}
+
+#app {
+    text-align: center;
+}
+
+#MyCircle {
+    fill: #2f2f2f;
+    transition:.5s;
+}
+
+#MyCircle:hover {
+    fill: #8f8f8f;
+}
