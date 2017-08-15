@@ -7,11 +7,34 @@ h1 {
     text-align: center;
 }
 
-#MyCircle {
+#blank {
     fill: #2f2f2f;
-    transition:.5s;
+    width: 0.9px;
+    height: 0.9px;
+    transition: .3s;
 }
 
-#MyCircle:hover {
+#blank:hover {
     fill: #8f8f8f;
+    width: 0.85px;
+    height: 0.85px;
+}
+
+#back {
+    fill: #2f2f2f;
+    width: 0.9px;
+    height: 0.9px;
+}
+
+#cross {
+    stroke: gold;
+    stroke-linecap: round;
+    stroke-width: 0.08px
+}
+
+#naught {
+    stroke-width: 0.08px;
+    stroke: skyblue;
+    fill: #2f2f2f;
+    r: 0.30;
 }
